@@ -276,6 +276,8 @@
 	transition: .1s linear;
 
 	border-radius: 5px;
+
+	text-decoration: none;
 }
 
 .services_content_item:hover {
