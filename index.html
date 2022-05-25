@@ -14,13 +14,11 @@
 
 	<div class="wrap">
 
-		<div class="services">
+		<div class="services" id="services_popup">
 
-			<img src="./img/close.png" width="35px" height="35px" class="services_close" id="services_close_icon">
-			
 			<div class="services_body">
 				
-				<div class="services_content">
+				<div class="services_content" id="services_content">
 					
 					<div class="services_content_place services_content_place_top">
 						
@@ -211,32 +209,103 @@
 							</div>
 
 						</div>
-
-						<!-- <div class="services_content_row">
-							
-							<div class="services_content_item">
-								
-								<img src="./img/google-photos.png" width="50px" height="50px">
-								<div class="services_content_item_title">Фото</div>
-
-							</div>
-
-							<div class="services_content_item">
-								
-								<img src="./img/google-duo.png" width="50px" height="50px">
-								<div class="services_content_item_title">Duo</div>
-
-							</div>
-
-							<div class="services_content_item">
-								
-								<img src="./img/google (2).png" width="50px" height="50px">
-								<div class="services_content_item_title">Покупки</div>
-
-							</div>
-
-						</div> -->
 						
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="services" id="background_popup">
+
+			<div class="services_body">
+				
+				<div class="services_content" id="background_content">
+					
+					<div class="services_content_place">
+						
+						<div class="services_content_row">
+							
+							<a class="services_content_item" id="background_1">
+								
+								<img src="./img/background-site.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_2">
+								
+								<img src="./img/site-background.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_3">
+								
+								<img src="./img/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_4">
+								
+								<img src="./img/pexels-pixabay-531880.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_5">
+								
+								<img src="./img/sea-edge-79ab30e2.png" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_6">
+								
+								<img src="./img/istockphoto-1293539824-170667a.jpg" width="90px" height="50px">
+
+							</a>
+
+						</div>
+
+						<div class="services_content_row">
+							
+							<a class="services_content_item" id="background_7">
+								
+								<img src="./img/website-background-image-size-psd-vector-photo.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_8">
+								
+								<img src="./img/Background-website-01.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_9">
+								
+								<img src="./img/Elegant_Background-3.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_10">
+								
+								<img src="./img/0_AIiBI_PACYwsqIrd.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_11">
+								
+								<img src="./img/Savin-NY-Website-Background-Web1.jpg" width="90px" height="50px">
+
+							</a>
+
+							<a class="services_content_item" id="background_12">
+								
+								<img src="./img/337-3371635_must-have-seamless-patterns-for-website-backgrounds-blue.jpg" width="90px" height="50px">
+
+							</a>
+
+						</div>
+
 					</div>
 
 				</div>
@@ -322,6 +391,7 @@
 				<a class="header_link cursor" href="https://www.google.com/intl/ru/gmail/about/">Gmail</a>
 				<a class="header_link cursor">Зображення</a>
 				<img src="./img/dots-menu.png" width="45px" height="45px" class="services_icon cursor" id="services_btn">
+				<img src="./img/dots-menu (1).png" width="45px" height="45px" class="services_icon cursor" id="services_btn_dark">
 				<div class="btn_enter">Увійти</div>
 
 			</div>
@@ -332,8 +402,8 @@
 			
 			<div class="section_content">
 				
-				<div class="section_title">Rooble</div>
-				<div class="input_place">
+				<div class="section_title"><span class="span_blue">R</span><span class="span_red">o</span><span class="span_yellow">o</span><span class="span_blue">b</span><span class="span_green">l</span><span class="span_red">e</span></div>
+				<div class="input_place" id="input_place">
 					
 					<img src="./img/search-interface-symbol.png" width="25px" height="25px" class="icon_search cursor">
 					<input type="text" class="input" id="input_search" name="">
@@ -365,18 +435,36 @@
 					
 					<div class="footer_item_place">
 
-						<div class="footer_item_text footer_item_text_margin_left">Все про Rooble</div>
-						<div class="footer_item_text">Реклама</div>
-						<div class="footer_item_text">Для бізнесу</div>
-						<div class="footer_item_text">Як працює Rooble пошук</div>
+						<a href="https://about.google/?utm_source=google-UA&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="footer_item_text footer_item_text_margin_left">Все про Rooble</a>
+						<a href="https://ads.google.com/intl/ru_ua/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="footer_item_text">Реклама</a>
+						<a href="https://www.google.com.ua/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" class="footer_item_text">Для бізнесу</a>
+						<a href="https://www.google.com/search/howsearchworks/?fg=1" class="footer_item_text">Як працює Rooble пошук</a>
 
 					</div>
 
 					<div class="footer_item_place">
 
-						<div class="footer_item_text">Конфіденційність</div>
-						<div class="footer_item_text">Умови</div>
-						<div class="footer_item_text footer_item_text_margin_right">Налаштування</div>
+						<a href="https://policies.google.com/privacy?hl=ru-UA&fg=1" class="footer_item_text">Конфіденційність</a>
+						<a href="https://policies.google.com/terms?hl=ru-UA&fg=1" class="footer_item_text">Умови</a>
+						<div class="footer_item_text footer_item_text_margin_right" id="btn_settings">Налаштування</div>
+
+					</div>
+
+					<div class="settings">
+						
+						<div class="settings_item" id="dark_mode">
+							
+							<div class="settings_item_text">Темна тема увімк.</div>
+							<img src="./img/moon.png" width="25px" height="25px">
+
+						</div>
+
+						<div class="settings_item" id="background">
+							
+							<div class="settings_item_text">Вибрати фон</div>
+							<img src="./img/mountain-range-on-black-background.png" width="25px" height="25px">
+
+						</div>
 
 					</div>
 
