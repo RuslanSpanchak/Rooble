@@ -1,5 +1,6 @@
-
 $("#services_btn_dark").hide(0)
+$("#sun").hide(0)
+$("#dark_mode_text").html("увімк.")
 
 $("#btn_search").click(function() {
 
@@ -126,6 +127,9 @@ $("#dark_mode").click(function() {
     $(".input").css("color", "#000")
     $("#services_btn_dark").show(0)
     $("#services_btn").hide(0)
+    $("#sun").show(0)
+    $("#moon").hide(0)
+    $("#dark_mode_text").html("вимк.")
 
     $(".services_content").css("background-color", "#111")
 
@@ -231,6 +235,9 @@ $("#dark_mode").click(function() {
 
     $("#services_btn_dark").hide(0)
     $("#services_btn").show(0)
+    $("#sun").hide(0)
+    $("#moon").show(0)
+    $("#dark_mode_text").html("увімк.")
 
     $(".services_content").css("background-color", "#333")
 
